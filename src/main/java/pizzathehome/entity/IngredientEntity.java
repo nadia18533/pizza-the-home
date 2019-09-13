@@ -17,7 +17,7 @@ import java.util.Set;
 public class IngredientEntity extends BaseEntity{
     @Column(name = "name",nullable = false)
     private String name;
-
+////123
 
 
 }
