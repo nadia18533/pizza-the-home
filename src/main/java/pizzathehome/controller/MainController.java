@@ -18,6 +18,18 @@ public class MainController {
         return "menu";
     }
 
+    @RequestMapping("/contact")
+    public  String contactPage(Model model){
+        model.addAttribute("contact");
+        return "contact";
+    }
+
+    @RequestMapping("/about")
+    public  String aboutPage(Model model){
+        model.addAttribute("about");
+        return "about";
+    }
+
 //
 //    @RequestMapping(value = "/contact")
 //    public String contactPage(Model model){
